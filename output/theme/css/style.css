@@ -303,14 +303,14 @@ html {
 
 /* line 9, ../../../sass/settings/_global.scss */
 ::-moz-selection {
-  background: #0f0;
+  background: #3a32de;
   color: #fff;
   text-shadow: none;
 }
 
 /* line 15, ../../../sass/settings/_global.scss */
 ::selection {
-  background: #0f0;
+  background: #3a32de;
   color: #fff;
   text-shadow: none;
 }
@@ -467,7 +467,7 @@ body {
 
   /* line 30, ../../../sass/nav/_mobile.scss */
   .navigation a:hover {
-    background-color: #0f0;
+    background-color: #3a32de;
   }
 }
 /* nav/_tablet.scss */
@@ -551,7 +551,7 @@ body {
     line-height: 1em;
     margin: 40px auto;
     text-align: center;
-    color: #0f0;
+    color: #3a32de;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -562,7 +562,7 @@ body {
     line-height: 1em;
     margin: 20px auto;
     text-align: center;
-    color: #0f0;
+    color: #3a32de;
   }
 }
 /* -----------------------------------------------------------------------
