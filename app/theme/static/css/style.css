@@ -463,6 +463,25 @@ th {
 /* -----------------------------------------------------------------------
 		TYPOGRAPHY
 -------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'NeuzeitBook';
+  src: url("/theme/type/NeuzeitBook.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeuzeitBold';
+  src: url("/theme/type/NeuzeitHeavy.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+//	src:url('fonts/font-name.eot');
+//	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+//		url('fonts/font-name.woff') format('woff'),
+//		url('fonts/font-name.ttf') format('truetype'),
+//		url('fonts/font-name.svg#font-name') format('svg');
+*/
 /* -----------------------------------------------------------------------
 		VARIABLES 
 -------------------------------------------------------------------------- */
@@ -472,6 +491,9 @@ th {
 /* Pallate */
 /* ************************************************ 
 		TYPE
+************************************************ */
+/* ************************************************ 
+		Media Queries
 ************************************************ */
 /* -----------------------------------------------------------------------
 		MIXINS 
@@ -549,7 +571,7 @@ textarea {
    ========================================================================== */
 /* line 60, ../../../sass/settings/_global.scss */
 body {
-  font: 16px/26px "x", Helvetica, Helvetica Neue, Arial;
+  font: 16px/26px "NeuzeitBook", Helvetica, Helvetica Neue, Arial;
 }
 
 /* line 64, ../../../sass/settings/_global.scss */
@@ -585,58 +607,25 @@ body {
 }
 
 /* ==============
-    MOBILE: Menu
-   ============== */
-/* line 96, ../../../sass/settings/_global.scss */
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-/* line 102, ../../../sass/settings/_global.scss */
-nav a {
-  display: block;
-  margin-bottom: 10px;
-  padding: 15px 0;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  background: #e44d26;
-}
-
-/* line 115, ../../../sass/settings/_global.scss */
-nav a:hover,
-nav a:visited {
-  color: white;
-}
-
-/* line 120, ../../../sass/settings/_global.scss */
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* ==============
     MOBILE: Main
    ============== */
-/* line 128, ../../../sass/settings/_global.scss */
+/* line 98, ../../../sass/settings/_global.scss */
 .main {
   padding: 30px 0;
 }
 
-/* line 132, ../../../sass/settings/_global.scss */
+/* line 102, ../../../sass/settings/_global.scss */
 .main article h1 {
   font-size: 2em;
 }
 
-/* line 136, ../../../sass/settings/_global.scss */
+/* line 106, ../../../sass/settings/_global.scss */
 .main aside {
   color: white;
   padding: 0px 5% 10px;
 }
 
-/* line 141, ../../../sass/settings/_global.scss */
+/* line 111, ../../../sass/settings/_global.scss */
 .footer-container footer {
   color: white;
   padding: 20px 0;
@@ -645,7 +634,7 @@ nav a:hover {
 /* ===============
     ALL: IE Fixes
    =============== */
-/* line 150, ../../../sass/settings/_global.scss */
+/* line 120, ../../../sass/settings/_global.scss */
 .ie7 .title {
   padding-top: 20px;
 }
@@ -656,42 +645,6 @@ nav a:hover {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (min-width: 480px) {
-  /* ====================
-      INTERMEDIATE: Menu
-     ==================== */
-  /* line 182, ../../../sass/settings/_global.scss */
-  nav a {
-    float: left;
-    width: 27%;
-    margin: 0 1.7%;
-    padding: 25px 2%;
-    margin-bottom: 0;
-  }
-
-  /* line 190, ../../../sass/settings/_global.scss */
-  nav li:first-child a {
-    margin-left: 0;
-  }
-
-  /* line 194, ../../../sass/settings/_global.scss */
-  nav li:last-child a {
-    margin-right: 0;
-  }
-
-  /* ========================
-      INTERMEDIATE: IE Fixes
-     ======================== */
-  /* line 202, ../../../sass/settings/_global.scss */
-  nav ul li {
-    display: inline;
-  }
-
-  /* line 206, ../../../sass/settings/_global.scss */
-  .oldie nav a {
-    margin: 0 0.7%;
-  }
-}
 @media only screen and (min-width: 768px) {
   /* ====================
       WIDE: CSS3 Effects
@@ -699,12 +652,12 @@ nav a:hover {
   /* ============
       WIDE: Menu
      ============ */
-  /* line 226, ../../../sass/settings/_global.scss */
+  /* line 163, ../../../sass/settings/_global.scss */
   .title {
     float: left;
   }
 
-  /* line 230, ../../../sass/settings/_global.scss */
+  /* line 167, ../../../sass/settings/_global.scss */
   nav {
     float: right;
     width: 38%;
@@ -713,13 +666,13 @@ nav a:hover {
   /* ============
       WIDE: Main
      ============ */
-  /* line 239, ../../../sass/settings/_global.scss */
+  /* line 176, ../../../sass/settings/_global.scss */
   .main article {
     float: left;
     width: 57%;
   }
 
-  /* line 244, ../../../sass/settings/_global.scss */
+  /* line 181, ../../../sass/settings/_global.scss */
   .main aside {
     float: right;
     width: 28%;
@@ -729,7 +682,7 @@ nav a:hover {
   /* ===============
       Maximal Width
      =============== */
-  /* line 256, ../../../sass/settings/_global.scss */
+  /* line 193, ../../../sass/settings/_global.scss */
   .wrapper {
     width: 1026px;
     /* 1140px - 10% for margins */
@@ -739,13 +692,13 @@ nav a:hover {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/* line 266, ../../../sass/settings/_global.scss */
+/* line 203, ../../../sass/settings/_global.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 271, ../../../sass/settings/_global.scss */
+/* line 208, ../../../sass/settings/_global.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -757,7 +710,7 @@ nav a:hover {
   width: 1px;
 }
 
-/* line 282, ../../../sass/settings/_global.scss */
+/* line 219, ../../../sass/settings/_global.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -768,24 +721,24 @@ nav a:hover {
   width: auto;
 }
 
-/* line 292, ../../../sass/settings/_global.scss */
+/* line 229, ../../../sass/settings/_global.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 296, ../../../sass/settings/_global.scss */
+/* line 233, ../../../sass/settings/_global.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 302, ../../../sass/settings/_global.scss */
+/* line 239, ../../../sass/settings/_global.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 306, ../../../sass/settings/_global.scss */
+/* line 243, ../../../sass/settings/_global.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -793,12 +746,124 @@ nav a:hover {
 /* -----------------------------------------------------------------------
 		GRID 
 -------------------------------------------------------------------------- */
+@media only screen and (min-width: 320px) {
+  /* line 3, ../../../sass/settings/_grid.scss */
+  .logo {
+    width: 20%;
+    display: inline-block;
+  }
+
+  /* line 8, ../../../sass/settings/_grid.scss */
+  .navigation {
+    width: 100%;
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 15, ../../../sass/settings/_grid.scss */
+  .logo {
+    width: 80%;
+    display: inline-block;
+  }
+
+  /* line 20, ../../../sass/settings/_grid.scss */
+  .navigation {
+    width: 100%;
+    display: inline-block;
+  }
+}
 /* =======================================================================
 		OBJECTS
 ========================================================================== */
 /* -----------------------------------------------------------------------
-		
+		 NAV
 -------------------------------------------------------------------------- */
+@media only screen and (min-width: 320px) {
+  /* ==============
+      LOGO
+     ============== */
+  /* line 6, ../../../sass/nav/_mobile.scss */
+  .logo {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+  }
+
+  /* ==============
+      NAV
+     ============== */
+  /* line 18, ../../../sass/nav/_mobile.scss */
+  .navigation {
+    display: block;
+    min-width: 200px;
+    max-width: 300px;
+    margin: auto;
+  }
+
+  /* line 25, ../../../sass/nav/_mobile.scss */
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  /* line 32, ../../../sass/nav/_mobile.scss */
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #e44d26;
+  }
+
+  /* line 45, ../../../sass/nav/_mobile.scss */
+  nav a:hover,
+  nav a:visited {
+    color: white;
+  }
+
+  /* line 50, ../../../sass/nav/_mobile.scss */
+  nav a:hover {
+    background-color: #0f0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+      Logo 
+     ==================== */
+  /* line 15, ../../../sass/nav/_tablet.scss */
+  .logo {
+    width: 20%;
+    display: inline-block;
+  }
+
+  /* ====================
+      Logo 
+     ==================== */
+  /* line 24, ../../../sass/nav/_tablet.scss */
+  .navigation {
+    display: inline-block;
+  }
+
+  /* line 30, ../../../sass/nav/_tablet.scss */
+  .navigation a {
+    margin: 0 1.7%;
+    margin-bottom: 0;
+  }
+
+  /* line 35, ../../../sass/nav/_tablet.scss */
+  .navigation li:first-child a {
+    margin-left: 0;
+  }
+
+  /* line 39, ../../../sass/nav/_tablet.scss */
+  .navigation li:last-child a {
+    margin-right: 0;
+  }
+}
 /* -----------------------------------------------------------------------
 -------------------------------------------------------------------------- */
 /* -----------------------------------------------------------------------

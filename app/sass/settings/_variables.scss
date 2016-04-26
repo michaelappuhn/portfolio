@@ -6,7 +6,7 @@ $backgroundColor: #000;
 
 /* Pallate */
 $color1: #fff;
-$color2: #f00;
+$color2: #e44d26;
 $color3: #0f0;
 $color4: #0f0;
 
@@ -16,9 +16,9 @@ $color4: #0f0;
 
 $sansAddon: Helvetica, Helvetica Neue, Arial;
 
-$font1: 'x', $sansAddon;
+$font1: 'NeuzeitBook', $sansAddon;
 $font1Light: 'x';
-$font1Bold: 'x';
+$font1Bold: 'NeuzeitBold', $sansAddon;
 $font1Ital: 'x';
 
 $fontSecondary: 'x';
@@ -26,4 +26,10 @@ $fontSecondaryLight: 'x';
 $fontSecondaryBold: 'x';
 $fontSecondaryItal: 'x';
 
+/* ************************************************ 
+		Media Queries
+************************************************ */
 
+$mobileWidth: 320px;
+$tabletWidth: 768px;
+$desktopWidth: 1280px;

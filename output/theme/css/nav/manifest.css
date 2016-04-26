@@ -1,0 +1,38 @@
+/*
+Error: Invalid CSS after "@import 'mobile'": expected selector or at-rule, was "@import 'tablet'"
+        on line 4 of /Users/mm/Documents/portPelican/app/sass/nav/manifest.scss
+
+1: 
+2: @import 'mobile'
+3: 
+4: @import 'tablet'
+5: 
+6: @import 'desktop'
+
+Backtrace:
+/Users/mm/Documents/portPelican/app/sass/nav/manifest.scss:4
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/scss/parser.rb:1162:in `expected'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/scss/parser.rb:1098:in `expected'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/scss/parser.rb:43:in `parse'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/engine.rb:393:in `_to_tree'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/engine.rb:268:in `render'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/listen-2.10.1/lib/listen/listener.rb:305:in `call'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/listen-2.10.1/lib/listen/listener.rb:305:in `_process_changes'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/listen-2.10.1/lib/listen/listener.rb:269:in `block in _wait_for_changes'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/listen-2.10.1/lib/listen/listener.rb:252:in `loop'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/listen-2.10.1/lib/listen/listener.rb:252:in `_wait_for_changes'
+/Users/mm/.rvm/gems/ruby-2.2.1/gems/listen-2.10.1/lib/listen/listener.rb:341:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import 'mobile'\": expected selector or at-rule, was \"@import 'tablet'\"\A         on line 4 of /Users/mm/Documents/portPelican/app/sass/nav/manifest.scss\A \A 1: \A 2: @import 'mobile'\A 3: \A 4: @import 'tablet'\A 5: \A 6: @import 'desktop'"; }

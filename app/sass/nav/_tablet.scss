@@ -1,0 +1,45 @@
+@media only screen and (min-width: $tabletWidth) {
+
+
+
+/* ====================
+    Logo 
+   ==================== */
+
+
+
+
+
+
+
+	.logo {
+		width: 20%;
+		display: inline-block;
+	}
+
+/* ====================
+    Logo 
+   ==================== */
+
+	.navigation{
+		display: inline-block;
+	}
+
+
+
+    .navigation a {
+        margin: 0 1.7%;
+        margin-bottom: 0;
+    }
+
+    .navigation li:first-child a {
+        margin-left: 0;
+    }
+
+    .navigation li:last-child a {
+        margin-right: 0;
+    }
+
+
+
+}
