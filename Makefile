@@ -64,18 +64,18 @@ help:
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -t $(THEMEDIR)
-	chmod -r 644 $(OUTPUTDIR)
+	chmod -r 777 $(OUTPUTDIR)
 
 debug:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -t $(THEMEDIR) -D
-	chmod -r 644 $(OUTPUTDIR)
+	chmod -r 777 $(OUTPUTDIR)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -t $(THEMEDIR)
-	chmod -r 644 $(OUTPUTDIR)
+	chmod -r 777 $(OUTPUTDIR)
 
 serve:
 ifdef PORT
