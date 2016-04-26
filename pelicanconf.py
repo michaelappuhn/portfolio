@@ -31,4 +31,4 @@ SOCIAL = (('Website', 'http://www.michaelappuhn.com'),
 DEFAULT_PAGINATION = 60
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True

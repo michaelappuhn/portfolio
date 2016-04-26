@@ -1,0 +1,9 @@
+{% block head %}
+<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+<meta charset="utf-8" />
+
+{% include 'head/_feed.html' %}
+
+<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/themes/static/css/style.css" />
+
+{% endblock head %}

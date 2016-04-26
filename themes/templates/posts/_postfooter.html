@@ -1,0 +1,10 @@
+{% block postfooter %}
+    <footer class="post-info">
+        <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+        <address class="vcard author">By
+        {% for author in article.authors %}
+            <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+        {% endfor %}
+        </address>
+    </footer><!-- /.post-info -->
+{% endblock postfooter %}

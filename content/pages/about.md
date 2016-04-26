@@ -1,3 +1,3 @@
 Title: About
 
-This is all about *me*.
+Hi, I'm Michael Appuhn and this is my website

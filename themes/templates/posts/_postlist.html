@@ -1,0 +1,19 @@
+{% block postslist %}
+
+	<ul id="post-list">
+
+	{% for article in articles_page.object_list %}
+        <li><article class="hentry">
+        	
+	               {% include 'posts/_postheader.html' %}
+	               {% include 'posts/_postfooter.html' %} 
+
+            {# <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content --> #}
+
+	        </article>
+	    </li>
+	{% endfor %}
+
+	</ul><!-- /#posts-list -->
+
+{% endblock %}
