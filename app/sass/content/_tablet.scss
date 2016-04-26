@@ -1,0 +1,12 @@
+/* content/_tablet.scss */
+
+	
+
+	.content{
+		@include tabletWidth();
+	}
+
+	.content p {
+		max-width: 700px;
+		margin: 10px auto;
+	}

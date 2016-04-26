@@ -1,0 +1,6 @@
+/* content/_mobile.scss */
+
+	.content{
+		@include mobileWidth();
+	}	
+

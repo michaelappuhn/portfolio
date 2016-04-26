@@ -1,0 +1,12 @@
+/* _mobile */
+
+@media only screen and (min-width: $mobileWidth) {
+
+	.homepage-hi{
+		font-size: 50vw;
+		line-height: 1em;
+		margin: 40px auto;
+		text-align: center;
+		color: $color3;
+	}
+}

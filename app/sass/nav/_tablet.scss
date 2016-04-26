@@ -1,25 +1,17 @@
+/* nav/_tablet.scss */
+
 @media only screen and (min-width: $tabletWidth) {
 
 
-
-/* ====================
-    Logo 
-   ==================== */
-
-
-
-
-
-
+/* -------------------- Logo -------------------- */
 
 	.logo {
-		width: 20%;
-		display: inline-block;
+        @include mobileWidth();
+        text-align: left;
+
 	}
 
-/* ====================
-    Logo 
-   ==================== */
+/* -------------------- Navigation -------------------- */
 
 	.navigation{
 		display: inline-block;
