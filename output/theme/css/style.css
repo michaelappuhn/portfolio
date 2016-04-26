@@ -23,440 +23,227 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 		RESET
 -------------------------------------------------------------------------- */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-/* line 9, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 html {
   font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
 }
 
-/**
- * Remove default margin.
- */
-/* line 19, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 body {
   margin: 0;
 }
 
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
-/* line 33, ../../../sass/settings/_reset.scss */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
+/* line 1, ../../../sass/settings/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
-/* line 54, ../../../sass/settings/_reset.scss */
-audio,
-canvas,
-progress,
-video {
+/* line 1, ../../../sass/settings/_reset.scss */
+audio, canvas, progress, video {
   display: inline-block;
-  /* 1 */
   vertical-align: baseline;
-  /* 2 */
 }
 
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-/* line 67, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
- */
-/* line 77, ../../../sass/settings/_reset.scss */
-[hidden],
-template {
+/* line 1, ../../../sass/settings/_reset.scss */
+[hidden], template {
   display: none;
 }
 
-/* Links
-   ========================================================================== */
-/**
- * Remove the gray background color from active links in IE 10.
- */
-/* line 89, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 a {
   background-color: transparent;
 }
 
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-/* line 97, ../../../sass/settings/_reset.scss */
-a:active,
-a:hover {
+/* line 1, ../../../sass/settings/_reset.scss */
+a:active, a:hover {
   outline: 0;
 }
 
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
-/* line 109, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
-/* line 117, ../../../sass/settings/_reset.scss */
-b,
-strong {
-  font-weight: bold;
+/* line 1, ../../../sass/settings/_reset.scss */
+b, strong {
+  font-weight: 700;
 }
 
-/**
- * Address styling not present in Safari and Chrome.
- */
-/* line 126, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 dfn {
   font-style: italic;
 }
 
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-/* line 135, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: .67em 0;
 }
 
-/**
- * Address styling not present in IE 8/9.
- */
-/* line 144, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-/* line 153, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 small {
   font-size: 80%;
 }
 
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-/* line 161, ../../../sass/settings/_reset.scss */
-sub,
-sup {
+/* line 1, ../../../sass/settings/_reset.scss */
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
 
-/* line 169, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 sup {
-  top: -0.5em;
+  top: -.5em;
 }
 
-/* line 173, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 sub {
-  bottom: -0.25em;
+  bottom: -.25em;
 }
 
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove border when inside `a` element in IE 8/9/10.
- */
-/* line 184, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 img {
   border: 0;
 }
 
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
-/* line 192, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* Grouping content
-   ========================================================================== */
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
-/* line 203, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 figure {
   margin: 1em 40px;
 }
 
-/**
- * Address differences between Firefox and other browsers.
- */
-/* line 211, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
 
-/**
- * Contain overflow in all browsers.
- */
-/* line 221, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 pre {
   overflow: auto;
 }
 
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
-/* line 229, ../../../sass/settings/_reset.scss */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
+/* line 1, ../../../sass/settings/_reset.scss */
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
   font-size: 1em;
 }
 
-/* Forms
-   ========================================================================== */
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
-/* line 252, ../../../sass/settings/_reset.scss */
-button,
-input,
-optgroup,
-select,
-textarea {
+/* line 1, ../../../sass/settings/_reset.scss */
+button, input, optgroup, select, textarea {
   color: inherit;
-  /* 1 */
   font: inherit;
-  /* 2 */
   margin: 0;
-  /* 3 */
 }
 
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
-/* line 266, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 button {
   overflow: visible;
 }
 
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
-/* line 277, ../../../sass/settings/_reset.scss */
-button,
-select {
+/* line 1, ../../../sass/settings/_reset.scss */
+button, select {
   text-transform: none;
 }
 
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-/* line 290, ../../../sass/settings/_reset.scss */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+/* line 1, ../../../sass/settings/_reset.scss */
+button, html input[type=button], input[type=reset], input[type=submit] {
   -webkit-appearance: button;
-  /* 2 */
   cursor: pointer;
-  /* 3 */
 }
 
-/**
- * Re-set default cursor for disabled elements.
- */
-/* line 302, ../../../sass/settings/_reset.scss */
-button[disabled],
-html input[disabled] {
+/* line 1, ../../../sass/settings/_reset.scss */
+button[disabled], html input[disabled] {
   cursor: default;
 }
 
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-/* line 311, ../../../sass/settings/_reset.scss */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+/* line 1, ../../../sass/settings/_reset.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-/* line 322, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 input {
   line-height: normal;
 }
 
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-/* line 334, ../../../sass/settings/_reset.scss */
-input[type="checkbox"],
-input[type="radio"] {
+/* line 1, ../../../sass/settings/_reset.scss */
+input[type=checkbox], input[type=radio] {
   box-sizing: border-box;
-  /* 1 */
   padding: 0;
-  /* 2 */
 }
 
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
-/* line 346, ../../../sass/settings/_reset.scss */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+/* line 1, ../../../sass/settings/_reset.scss */
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
- *    (include `-moz` to future-proof).
- */
-/* line 357, ../../../sass/settings/_reset.scss */
-input[type="search"] {
+/* line 1, ../../../sass/settings/_reset.scss */
+input[type=search] {
   -webkit-appearance: textfield;
-  /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
-  /* 2 */
   box-sizing: content-box;
 }
 
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
-/* line 370, ../../../sass/settings/_reset.scss */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+/* line 1, ../../../sass/settings/_reset.scss */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/**
- * Define consistent border, margin, and padding.
- */
-/* line 379, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  padding: .35em .625em .75em;
 }
 
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-/* line 390, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 legend {
   border: 0;
-  /* 1 */
   padding: 0;
-  /* 2 */
 }
 
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
-/* line 399, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 textarea {
   overflow: auto;
 }
 
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
-/* line 408, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 optgroup {
-  font-weight: bold;
+  font-weight: 700;
 }
 
-/* Tables
-   ========================================================================== */
-/**
- * Remove most spacing between table cells.
- */
-/* line 419, ../../../sass/settings/_reset.scss */
+/* line 1, ../../../sass/settings/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 424, ../../../sass/settings/_reset.scss */
-td,
-th {
+/* line 1, ../../../sass/settings/_reset.scss */
+td, th {
   padding: 0;
 }
 
@@ -516,27 +303,29 @@ html {
 
 /* line 9, ../../../sass/settings/_global.scss */
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #0f0;
+  color: #fff;
   text-shadow: none;
 }
 
-/* line 14, ../../../sass/settings/_global.scss */
+/* line 15, ../../../sass/settings/_global.scss */
 ::selection {
-  background: #b3d4fc;
+  background: #0f0;
+  color: #fff;
   text-shadow: none;
 }
 
-/* line 19, ../../../sass/settings/_global.scss */
+/* line 21, ../../../sass/settings/_global.scss */
 hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #000;
   margin: 1em 0;
   padding: 0;
 }
 
-/* line 28, ../../../sass/settings/_global.scss */
+/* line 30, ../../../sass/settings/_global.scss */
 audio,
 canvas,
 iframe,
@@ -546,19 +335,19 @@ video {
   vertical-align: middle;
 }
 
-/* line 37, ../../../sass/settings/_global.scss */
+/* line 39, ../../../sass/settings/_global.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 43, ../../../sass/settings/_global.scss */
+/* line 45, ../../../sass/settings/_global.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 47, ../../../sass/settings/_global.scss */
+/* line 49, ../../../sass/settings/_global.scss */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -566,139 +355,21 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-/* line 60, ../../../sass/settings/_global.scss */
+/* line 56, ../../../sass/settings/_global.scss */
 body {
   font: 16px/26px "NeuzeitBook", Helvetica, Helvetica Neue, Arial;
 }
 
-/* line 64, ../../../sass/settings/_global.scss */
-.wrapper {
-  width: 90%;
-  margin: 0 5%;
-}
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-/* line 73, ../../../sass/settings/_global.scss */
-.header-container {
-  border-bottom: 20px solid #e44d26;
-}
-
-/* line 77, ../../../sass/settings/_global.scss */
-.footer-container,
-.main aside {
-  border-top: 20px solid #e44d26;
-}
-
-/* line 82, ../../../sass/settings/_global.scss */
-.header-container,
-.footer-container,
-.main aside {
-  background: #f16529;
-}
-
-/* line 88, ../../../sass/settings/_global.scss */
-.title {
-  color: white;
-}
-
-/* ==============
-    MOBILE: Main
-   ============== */
-/* line 98, ../../../sass/settings/_global.scss */
-.main {
-  padding: 30px 0;
-}
-
-/* line 102, ../../../sass/settings/_global.scss */
-.main article h1 {
-  font-size: 2em;
-}
-
-/* line 106, ../../../sass/settings/_global.scss */
-.main aside {
-  color: white;
-  padding: 0px 5% 10px;
-}
-
-/* line 111, ../../../sass/settings/_global.scss */
-.footer-container footer {
-  color: white;
-  padding: 20px 0;
-}
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
-/* line 120, ../../../sass/settings/_global.scss */
-.ie7 .title {
-  padding-top: 20px;
-}
-
 /* ==========================================================================
-   Author's custom styles
+   HELPER CLASSES
    ========================================================================== */
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-@media only screen and (min-width: 768px) {
-  /* ====================
-      WIDE: CSS3 Effects
-     ==================== */
-  /* ============
-      WIDE: Menu
-     ============ */
-  /* line 163, ../../../sass/settings/_global.scss */
-  .title {
-    float: left;
-  }
-
-  /* line 167, ../../../sass/settings/_global.scss */
-  nav {
-    float: right;
-    width: 38%;
-  }
-
-  /* ============
-      WIDE: Main
-     ============ */
-  /* line 176, ../../../sass/settings/_global.scss */
-  .main article {
-    float: left;
-    width: 57%;
-  }
-
-  /* line 181, ../../../sass/settings/_global.scss */
-  .main aside {
-    float: right;
-    width: 28%;
-  }
-}
-@media only screen and (min-width: 1140px) {
-  /* ===============
-      Maximal Width
-     =============== */
-  /* line 193, ../../../sass/settings/_global.scss */
-  .wrapper {
-    width: 1026px;
-    /* 1140px - 10% for margins */
-    margin: 0 auto;
-  }
-}
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-/* line 203, ../../../sass/settings/_global.scss */
+/* line 67, ../../../sass/settings/_global.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 208, ../../../sass/settings/_global.scss */
+/* line 72, ../../../sass/settings/_global.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -710,7 +381,7 @@ body {
   width: 1px;
 }
 
-/* line 219, ../../../sass/settings/_global.scss */
+/* line 83, ../../../sass/settings/_global.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -721,24 +392,24 @@ body {
   width: auto;
 }
 
-/* line 229, ../../../sass/settings/_global.scss */
+/* line 93, ../../../sass/settings/_global.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 233, ../../../sass/settings/_global.scss */
+/* line 97, ../../../sass/settings/_global.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 239, ../../../sass/settings/_global.scss */
+/* line 103, ../../../sass/settings/_global.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 243, ../../../sass/settings/_global.scss */
+/* line 107, ../../../sass/settings/_global.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -746,70 +417,45 @@ body {
 /* -----------------------------------------------------------------------
 		GRID 
 -------------------------------------------------------------------------- */
-@media only screen and (min-width: 320px) {
-  /* line 3, ../../../sass/settings/_grid.scss */
-  .logo {
-    width: 20%;
-    display: inline-block;
-  }
-
-  /* line 8, ../../../sass/settings/_grid.scss */
-  .navigation {
-    width: 100%;
-    display: inline-block;
-  }
-}
-@media only screen and (min-width: 768px) {
-  /* line 15, ../../../sass/settings/_grid.scss */
-  .logo {
-    width: 80%;
-    display: inline-block;
-  }
-
-  /* line 20, ../../../sass/settings/_grid.scss */
-  .navigation {
-    width: 100%;
-    display: inline-block;
-  }
-}
 /* =======================================================================
 		OBJECTS
 ========================================================================== */
 /* -----------------------------------------------------------------------
+			UI ELEMENTS
+-------------------------------------------------------------------------- */
+/* ui-elements/_manifest.scss */
+/* ui-elements/_cta.scss */
+/* -----------------------------------------------------------------------
 		 NAV
 -------------------------------------------------------------------------- */
 @media only screen and (min-width: 320px) {
-  /* ==============
-      LOGO
-     ============== */
-  /* line 6, ../../../sass/nav/_mobile.scss */
+  /* -------------------- Logo -------------------- */
+  /* line 4, ../../../sass/nav/_mobile.scss */
   .logo {
-    display: block;
-    width: 150px;
-    margin: 20px auto;
+    width: 90%;
+    margin: 2vh auto;
+    text-align: center;
   }
 
-  /* ==============
-      NAV
-     ============== */
-  /* line 18, ../../../sass/nav/_mobile.scss */
+  /* -------------------- Navigation -------------------- */
+  /* line 12, ../../../sass/nav/_mobile.scss */
   .navigation {
     display: block;
-    min-width: 200px;
-    max-width: 300px;
     margin: auto;
   }
 
-  /* line 25, ../../../sass/nav/_mobile.scss */
-  nav ul {
+  /* line 17, ../../../sass/nav/_mobile.scss */
+  .navigation ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
-  /* line 32, ../../../sass/nav/_mobile.scss */
-  nav a {
+  /* line 24, ../../../sass/nav/_mobile.scss */
+  .navigation a {
     display: block;
+    min-width: 200px;
+    max-width: 300px;
     margin-bottom: 10px;
     padding: 15px 0;
     text-align: center;
@@ -819,63 +465,106 @@ body {
     background: #e44d26;
   }
 
-  /* line 45, ../../../sass/nav/_mobile.scss */
-  nav a:hover,
-  nav a:visited {
-    color: white;
-  }
-
-  /* line 50, ../../../sass/nav/_mobile.scss */
-  nav a:hover {
+  /* line 30, ../../../sass/nav/_mobile.scss */
+  .navigation a:hover {
     background-color: #0f0;
   }
 }
+/* nav/_tablet.scss */
 @media only screen and (min-width: 768px) {
-  /* ====================
-      Logo 
-     ==================== */
-  /* line 15, ../../../sass/nav/_tablet.scss */
+  /* -------------------- Logo -------------------- */
+  /* line 8, ../../../sass/nav/_tablet.scss */
   .logo {
-    width: 20%;
-    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding-left: 2vh;
+    padding-top: 2ch;
+    text-align: left;
   }
 
-  /* ====================
-      Logo 
-     ==================== */
-  /* line 24, ../../../sass/nav/_tablet.scss */
+  /* -------------------- Navigation -------------------- */
+  /* line 19, ../../../sass/nav/_tablet.scss */
   .navigation {
     display: inline-block;
   }
 
-  /* line 30, ../../../sass/nav/_tablet.scss */
+  /* line 25, ../../../sass/nav/_tablet.scss */
   .navigation a {
     margin: 0 1.7%;
     margin-bottom: 0;
   }
 
-  /* line 35, ../../../sass/nav/_tablet.scss */
+  /* line 30, ../../../sass/nav/_tablet.scss */
   .navigation li:first-child a {
     margin-left: 0;
   }
 
-  /* line 39, ../../../sass/nav/_tablet.scss */
+  /* line 34, ../../../sass/nav/_tablet.scss */
   .navigation li:last-child a {
     margin-right: 0;
   }
 }
 /* -----------------------------------------------------------------------
+		CONTENT
 -------------------------------------------------------------------------- */
+/* content/_manifest.scss */
+@media only screen and (min-width: 320px) {
+  /* content/_mobile.scss */
+  /* line 3, ../../../sass/content/_mobile.scss */
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* line 8, ../../../sass/content/_mobile.scss */
+  .content p {
+    max-width: 90%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* content/_tablet.scss */
+  /* line 5, ../../../sass/content/_tablet.scss */
+  .content {
+    width: 95%;
+  }
+
+  /* line 9, ../../../sass/content/_tablet.scss */
+  .content p {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
 /* -----------------------------------------------------------------------
 -------------------------------------------------------------------------- */
+/* =======================================================================
+		PAGES
+========================================================================== */
 /* -----------------------------------------------------------------------
+		HOMEPAGE
 -------------------------------------------------------------------------- */
-/* -----------------------------------------------------------------------
--------------------------------------------------------------------------- */
-/* -----------------------------------------------------------------------
--------------------------------------------------------------------------- */
-/* -----------------------------------------------------------------------
--------------------------------------------------------------------------- */
+/* homepage _manifest */
+@media only screen and (min-width: 320px) {
+  /* homepage/_mobile.scss */
+  /* line 3, ../../../sass/homepage/_mobile.scss */
+  .homepage-hi {
+    font-size: 50vw;
+    line-height: 1em;
+    margin: 40px auto;
+    text-align: center;
+    color: #0f0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* homepage/_tablet.scss */
+  /* line 3, ../../../sass/homepage/_tablet.scss */
+  .homepage-hi {
+    font-size: 30vw;
+    line-height: 1em;
+    margin: 20px auto;
+    text-align: center;
+    color: #0f0;
+  }
+}
 /* -----------------------------------------------------------------------
 -------------------------------------------------------------------------- */
 /*====================================================================

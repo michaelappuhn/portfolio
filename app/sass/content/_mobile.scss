@@ -2,5 +2,9 @@
 
 	.content{
 		@include mobileWidth();
+		margin: 0 auto;
 	}	
 
+	.content p {
+		max-width: 90%;
+	}
