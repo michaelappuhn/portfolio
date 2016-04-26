@@ -515,11 +515,6 @@ body {
     width: 90%;
     margin: 0 auto;
   }
-
-  /* line 8, ../../../sass/content/_mobile.scss */
-  .content p {
-    max-width: 90%;
-  }
 }
 @media only screen and (min-width: 768px) {
   /* content/_tablet.scss */
