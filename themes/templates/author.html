@@ -3,5 +3,14 @@
 {% block title %}{{ SITENAME }} - Articles by {{ author }}{% endblock %}
 {% block content_title %}
 <h2>Articles by {{ author }}</h2>
+
+{# ------ POSTS LIST ---------- #}
+{% include 'posts/_postlist.html' %}
+
+{# ------ PAGINATION ---------- #}
+{% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+{% endif %}
+
 {% endblock %}
 

@@ -1,17 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
+
 <section id="content">
-{% block content_title %}
-<h2>All articles</h2>
-{% endblock %}
 
-{# ------ POSTS LIST ---------- #}
-{% include 'posts/_postlist.html' %}
-
-{# ------ PAGINATION ---------- #}
-{% if articles_page.has_other_pages() %}
-    {% include 'pagination.html' %}
-{% endif %}
 
 </section><!-- /#content -->
 {% endblock content %}
