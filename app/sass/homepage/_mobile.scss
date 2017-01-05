@@ -3,7 +3,7 @@
 .homepage-hi{
 	font-size: 50vw;
 	line-height: 1em;
-	margin: 20vh auto 10vh;
+	margin: 20vh auto 6vh;
 	text-align: center;
 	color: $color1;
 }
@@ -17,4 +17,6 @@ canvas {
 	font-size: 1.2em;
 	line-height: 1.6em;
 	margin-top: .8em;
+    max-width: 420px;
+    text-align: center;
 }
