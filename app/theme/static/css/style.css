@@ -569,6 +569,13 @@ a:hover, active {
     position: fixed;
     z-index: -2000;
   }
+
+  /* line 16, ../../../sass/homepage/_mobile.scss */
+  .home p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-top: .8em;
+  }
 }
 @media only screen and (min-width: 768px) {
   /* homepage/_tablet.scss */
