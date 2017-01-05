@@ -1,6 +1,8 @@
 PY?=python
 PELICAN?=pelican
 PELICANOPTS=-v
+SASS?=compass
+SASS_DEV_OPTS=compile
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
@@ -41,7 +43,8 @@ endif
 help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
-	@echo 'Usage:                                                                    '
+	@echo 'Usage:																	 '
+	@echo '   make css                            compile the CSS                    '
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '   make regenerate                     regenerate files upon modification '
@@ -61,6 +64,10 @@ help:
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
+
+css: 
+	$(SASS) $(SASS_DEV_OPTS) $(BASEDIR)
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -t $(THEMEDIR)
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -t $(THEMEDIR)
