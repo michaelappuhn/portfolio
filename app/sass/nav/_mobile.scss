@@ -3,7 +3,7 @@
 /* -------------------- Logo -------------------- */
 	.logo {
 		@include mobileWidth();
-		margin: 2vh auto ;
+		padding: 2vh auto ;
 		text-align: center;
 	}
 
