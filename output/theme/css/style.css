@@ -548,6 +548,12 @@ body {
     text-align: center;
     color: #3a32de;
   }
+
+  /* line 11, ../../../sass/homepage/_mobile.scss */
+  canvas {
+    position: fixed;
+    z-index: -2000;
+  }
 }
 @media only screen and (min-width: 768px) {
   /* homepage/_tablet.scss */
