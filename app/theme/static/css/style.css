@@ -362,7 +362,7 @@ body {
 }
 
 /* line 61, ../../../sass/settings/_global.scss */
-a:link, visited {
+a:link, a:visited {
   color: #e44d26;
   text-decoration: none;
 }
@@ -445,26 +445,32 @@ a:hover, active {
   /* -------------------- Logo -------------------- */
   /* line 4, ../../../sass/nav/_mobile.scss */
   .logo {
-    width: 90%;
-    padding: 2vh auto;
-    text-align: center;
+    max-width: 300px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+  }
+
+  /* line 11, ../../../sass/nav/_mobile.scss */
+  .logo img {
+    transform: rotate(-35deg);
   }
 
   /* -------------------- Navigation -------------------- */
-  /* line 12, ../../../sass/nav/_mobile.scss */
+  /* line 19, ../../../sass/nav/_mobile.scss */
   .navigation {
     display: block;
     margin: auto;
   }
 
-  /* line 17, ../../../sass/nav/_mobile.scss */
+  /* line 24, ../../../sass/nav/_mobile.scss */
   .navigation ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
-  /* line 24, ../../../sass/nav/_mobile.scss */
+  /* line 31, ../../../sass/nav/_mobile.scss */
   .navigation a {
     display: block;
     min-width: 200px;
@@ -478,7 +484,7 @@ a:hover, active {
     background: #e44d26;
   }
 
-  /* line 30, ../../../sass/nav/_mobile.scss */
+  /* line 37, ../../../sass/nav/_mobile.scss */
   .navigation a:hover {
     background-color: #3a32de;
   }
@@ -488,31 +494,27 @@ a:hover, active {
   /* -------------------- Logo -------------------- */
   /* line 8, ../../../sass/nav/_tablet.scss */
   .logo {
-    width: auto;
     margin: 0;
-    padding-left: 2vh;
-    padding-top: 2ch;
-    text-align: left;
   }
 
   /* -------------------- Navigation -------------------- */
-  /* line 19, ../../../sass/nav/_tablet.scss */
+  /* line 15, ../../../sass/nav/_tablet.scss */
   .navigation {
     display: inline-block;
   }
 
-  /* line 25, ../../../sass/nav/_tablet.scss */
+  /* line 21, ../../../sass/nav/_tablet.scss */
   .navigation a {
     margin: 0 1.7%;
     margin-bottom: 0;
   }
 
-  /* line 30, ../../../sass/nav/_tablet.scss */
+  /* line 26, ../../../sass/nav/_tablet.scss */
   .navigation li:first-child a {
     margin-left: 0;
   }
 
-  /* line 34, ../../../sass/nav/_tablet.scss */
+  /* line 30, ../../../sass/nav/_tablet.scss */
   .navigation li:last-child a {
     margin-right: 0;
   }
@@ -557,9 +559,9 @@ a:hover, active {
   .homepage-hi {
     font-size: 50vw;
     line-height: 1em;
-    margin: 40px auto;
+    margin: 20vh auto 10vh;
     text-align: center;
-    color: #3a32de;
+    color: #fff;
   }
 
   /* line 11, ../../../sass/homepage/_mobile.scss */
@@ -574,9 +576,8 @@ a:hover, active {
   .homepage-hi {
     font-size: 30vw;
     line-height: 1em;
-    margin: 20px auto;
+    margin: 20vh auto 20px;
     text-align: center;
-    color: #3a32de;
   }
 }
 /* -----------------------------------------------------------------------
