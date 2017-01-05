@@ -23,83 +23,83 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 		RESET
 -------------------------------------------------------------------------- */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 body {
   margin: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 audio, canvas, progress, video {
   display: inline-block;
   vertical-align: baseline;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 [hidden], template {
   display: none;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 a {
   background-color: transparent;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 a:active, a:hover {
   outline: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 b, strong {
   font-weight: 700;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 h1 {
   font-size: 2em;
   margin: .67em 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 small {
   font-size: 80%;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -107,100 +107,100 @@ sub, sup {
   vertical-align: baseline;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 sup {
   top: -.5em;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 sub {
   bottom: -.25em;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 img {
   border: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 figure {
   margin: 1em 40px;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 pre {
   overflow: auto;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 code, kbd, pre, samp {
   font-family: monospace,monospace;
   font-size: 1em;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 button, input, optgroup, select, textarea {
   color: inherit;
   font: inherit;
   margin: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 button {
   overflow: visible;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 button, select {
   text-transform: none;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 button, html input[type=button], input[type=reset], input[type=submit] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 button[disabled], html input[disabled] {
   cursor: default;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 input {
   line-height: normal;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 input[type=checkbox], input[type=radio] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 input[type=search] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -208,41 +208,41 @@ input[type=search] {
   box-sizing: content-box;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: .35em .625em .75em;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 optgroup {
   font-weight: 700;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 1, ../../../sass/settings/_reset.scss */
+/* line 1, ../sass/settings/_reset.scss */
 td, th {
   padding: 0;
 }
@@ -294,28 +294,28 @@ td, th {
 		GLOBAL 
 -------------------------------------------------------------------------- */
 /*! Pulled from HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-/* line 3, ../../../sass/settings/_global.scss */
+/* line 3, ../sass/settings/_global.scss */
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 9, ../../../sass/settings/_global.scss */
+/* line 9, ../sass/settings/_global.scss */
 ::-moz-selection {
   background: #3a32de;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 15, ../../../sass/settings/_global.scss */
+/* line 15, ../sass/settings/_global.scss */
 ::selection {
   background: #3a32de;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 21, ../../../sass/settings/_global.scss */
+/* line 21, ../sass/settings/_global.scss */
 hr {
   display: block;
   height: 1px;
@@ -325,7 +325,7 @@ hr {
   padding: 0;
 }
 
-/* line 30, ../../../sass/settings/_global.scss */
+/* line 30, ../sass/settings/_global.scss */
 audio,
 canvas,
 iframe,
@@ -335,19 +335,19 @@ video {
   vertical-align: middle;
 }
 
-/* line 39, ../../../sass/settings/_global.scss */
+/* line 39, ../sass/settings/_global.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 45, ../../../sass/settings/_global.scss */
+/* line 45, ../sass/settings/_global.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 49, ../../../sass/settings/_global.scss */
+/* line 49, ../sass/settings/_global.scss */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -355,7 +355,7 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* line 56, ../../../sass/settings/_global.scss */
+/* line 56, ../sass/settings/_global.scss */
 body {
   font: 16px/26px "NeuzeitBook", Helvetica, Helvetica Neue, Arial;
 }
@@ -363,13 +363,13 @@ body {
 /* ==========================================================================
    HELPER CLASSES
    ========================================================================== */
-/* line 67, ../../../sass/settings/_global.scss */
+/* line 67, ../sass/settings/_global.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 72, ../../../sass/settings/_global.scss */
+/* line 72, ../sass/settings/_global.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -381,7 +381,7 @@ body {
   width: 1px;
 }
 
-/* line 83, ../../../sass/settings/_global.scss */
+/* line 83, ../sass/settings/_global.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -392,24 +392,24 @@ body {
   width: auto;
 }
 
-/* line 93, ../../../sass/settings/_global.scss */
+/* line 93, ../sass/settings/_global.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 97, ../../../sass/settings/_global.scss */
+/* line 97, ../sass/settings/_global.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 103, ../../../sass/settings/_global.scss */
+/* line 103, ../sass/settings/_global.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 107, ../../../sass/settings/_global.scss */
+/* line 107, ../sass/settings/_global.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -430,7 +430,7 @@ body {
 -------------------------------------------------------------------------- */
 @media only screen and (min-width: 320px) {
   /* -------------------- Logo -------------------- */
-  /* line 4, ../../../sass/nav/_mobile.scss */
+  /* line 4, ../sass/nav/_mobile.scss */
   .logo {
     width: 90%;
     margin: 2vh auto;
@@ -438,20 +438,20 @@ body {
   }
 
   /* -------------------- Navigation -------------------- */
-  /* line 12, ../../../sass/nav/_mobile.scss */
+  /* line 12, ../sass/nav/_mobile.scss */
   .navigation {
     display: block;
     margin: auto;
   }
 
-  /* line 17, ../../../sass/nav/_mobile.scss */
+  /* line 17, ../sass/nav/_mobile.scss */
   .navigation ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
-  /* line 24, ../../../sass/nav/_mobile.scss */
+  /* line 24, ../sass/nav/_mobile.scss */
   .navigation a {
     display: block;
     min-width: 200px;
@@ -465,7 +465,7 @@ body {
     background: #e44d26;
   }
 
-  /* line 30, ../../../sass/nav/_mobile.scss */
+  /* line 30, ../sass/nav/_mobile.scss */
   .navigation a:hover {
     background-color: #3a32de;
   }
@@ -473,7 +473,7 @@ body {
 /* nav/_tablet.scss */
 @media only screen and (min-width: 768px) {
   /* -------------------- Logo -------------------- */
-  /* line 8, ../../../sass/nav/_tablet.scss */
+  /* line 8, ../sass/nav/_tablet.scss */
   .logo {
     width: auto;
     margin: 0;
@@ -483,23 +483,23 @@ body {
   }
 
   /* -------------------- Navigation -------------------- */
-  /* line 19, ../../../sass/nav/_tablet.scss */
+  /* line 19, ../sass/nav/_tablet.scss */
   .navigation {
     display: inline-block;
   }
 
-  /* line 25, ../../../sass/nav/_tablet.scss */
+  /* line 25, ../sass/nav/_tablet.scss */
   .navigation a {
     margin: 0 1.7%;
     margin-bottom: 0;
   }
 
-  /* line 30, ../../../sass/nav/_tablet.scss */
+  /* line 30, ../sass/nav/_tablet.scss */
   .navigation li:first-child a {
     margin-left: 0;
   }
 
-  /* line 34, ../../../sass/nav/_tablet.scss */
+  /* line 34, ../sass/nav/_tablet.scss */
   .navigation li:last-child a {
     margin-right: 0;
   }
@@ -510,7 +510,7 @@ body {
 /* content/_manifest.scss */
 @media only screen and (min-width: 320px) {
   /* content/_mobile.scss */
-  /* line 3, ../../../sass/content/_mobile.scss */
+  /* line 3, ../sass/content/_mobile.scss */
   .content {
     width: 90%;
     margin: 0 auto;
@@ -518,12 +518,12 @@ body {
 }
 @media only screen and (min-width: 768px) {
   /* content/_tablet.scss */
-  /* line 5, ../../../sass/content/_tablet.scss */
+  /* line 5, ../sass/content/_tablet.scss */
   .content {
     width: 95%;
   }
 
-  /* line 9, ../../../sass/content/_tablet.scss */
+  /* line 9, ../sass/content/_tablet.scss */
   .content p {
     max-width: 700px;
     margin: 0 auto;
@@ -540,7 +540,7 @@ body {
 /* homepage _manifest */
 @media only screen and (min-width: 320px) {
   /* homepage/_mobile.scss */
-  /* line 3, ../../../sass/homepage/_mobile.scss */
+  /* line 3, ../sass/homepage/_mobile.scss */
   .homepage-hi {
     font-size: 50vw;
     line-height: 1em;
@@ -549,7 +549,7 @@ body {
     color: #3a32de;
   }
 
-  /* line 11, ../../../sass/homepage/_mobile.scss */
+  /* line 11, ../sass/homepage/_mobile.scss */
   canvas {
     position: fixed;
     z-index: -2000;
@@ -557,13 +557,18 @@ body {
 }
 @media only screen and (min-width: 768px) {
   /* homepage/_tablet.scss */
-  /* line 3, ../../../sass/homepage/_tablet.scss */
+  /* line 3, ../sass/homepage/_tablet.scss */
   .homepage-hi {
     font-size: 30vw;
     line-height: 1em;
     margin: 20px auto;
     text-align: center;
     color: #3a32de;
+  }
+
+  /* line 11, ../sass/homepage/_tablet.scss */
+  canvas {
+    position: fixed;
   }
 }
 /* -----------------------------------------------------------------------

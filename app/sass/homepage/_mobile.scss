@@ -7,3 +7,8 @@
 	text-align: center;
 	color: $color3;
 }
+
+canvas {
+	position: fixed;
+	z-index: -2000;
+}
