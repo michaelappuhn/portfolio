@@ -56,6 +56,8 @@ function render() {
   cube.rotation.y += 0.0121;
   cube.rotation.z += 0.00103;
 
+  camera.position.z += .01;
+
   //camera.rotation.z += 0.0003;
   //camera.rotation.x += 0.00003;
 
