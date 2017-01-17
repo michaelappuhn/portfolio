@@ -558,19 +558,21 @@ a:hover, active {
   /* line 3, ../../../sass/homepage/_mobile.scss */
   .homepage-hi {
     font-size: 50vw;
+    font-weight: normal;
+    font-family: NeuzeitBold;
     line-height: 1em;
     margin: 20vh auto 6vh;
     text-align: center;
     color: #fff;
   }
 
-  /* line 11, ../../../sass/homepage/_mobile.scss */
+  /* line 13, ../../../sass/homepage/_mobile.scss */
   canvas {
     position: fixed;
     z-index: -2000;
   }
 
-  /* line 16, ../../../sass/homepage/_mobile.scss */
+  /* line 18, ../../../sass/homepage/_mobile.scss */
   .home p {
     font-size: 1.2em;
     line-height: 1.6em;
