@@ -71,7 +71,7 @@ css:
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -t $(THEMEDIR)
-	chmod -r 777 $(OUTPUTDIR)
+	chmod -R 777 $(OUTPUTDIR)
 
 debug:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -t $(THEMEDIR) -D
