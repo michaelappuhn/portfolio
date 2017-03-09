@@ -65,9 +65,6 @@ function render() {
 
   camera.position.z += .01;
 
-  //camera.rotation.z += 0.0003;
-  //camera.rotation.x += 0.00003;
-
   renderer.render( scene, camera );
 }
 render();
