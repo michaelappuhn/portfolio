@@ -1,7 +1,7 @@
 /*! Pulled from HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: #222;
+    color: $color1;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -55,6 +55,17 @@ textarea {
 
 body {
     font: 16px/26px $font1;
+    background-color: $color3;
+}
+
+a:link, a:visited {
+    color: $color2;
+    text-decoration: none;
+}
+
+a:hover, active{
+    color: $color2;
+    text-decoration: underline;
 }
 
 

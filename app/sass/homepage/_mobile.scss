@@ -2,13 +2,23 @@
 
 .homepage-hi{
 	font-size: 50vw;
+	font-weight: normal	;
+	font-family: NeuzeitBold;
 	line-height: 1em;
-	margin: 40px auto;
+	margin: 20vh auto 6vh;
 	text-align: center;
-	color: $color3;
+	color: $color1;
 }
 
 canvas {
 	position: fixed;
 	z-index: -2000;
+}
+
+.home p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	margin-top: .8em;
+    max-width: 420px;
+    text-align: center;
 }
