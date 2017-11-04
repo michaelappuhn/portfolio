@@ -20,28 +20,12 @@ var material = new THREE.MeshPhongMaterial( { color: 0x0000ee, specular: 0x11111
 // Insert make a new cube from geometry and material and add to scene
 var cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
-scene.add( cube );
 
 // Add a soft ambien light to the scene
 var lighting = new THREE.AmbientLight( 0x303030 ); // soft white light
 scene.add(lighting)
 
 camera.position.z = 2;
-
-
-/* Load cone as a JSONLoader file (converted from DAE) */
-/*
-var cone = new THREE.JSONLoader();
-cone.load(
-    'cone.json',
-    function (geometry, materials)
-    {
-      var material = new THREE.MeshFaceMaterial(materials);
-      var object = new THREE.Mesh(geometry, materials);
-      scene.add( object );
-    }
-  )
-*/
 
 //Add directional light and point at cube
 var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.5 );
