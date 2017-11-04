@@ -447,30 +447,25 @@ a:hover, active {
   .logo {
     max-width: 300px;
     position: relative;
-    top: 50px;
-    left: 10px;
-  }
-
-  /* line 11, ../../../sass/nav/_mobile.scss */
-  .logo img {
-    transform: rotate(-35deg);
+    top: 20px;
+    left: 20px;
   }
 
   /* -------------------- Navigation -------------------- */
-  /* line 19, ../../../sass/nav/_mobile.scss */
+  /* line 14, ../../../sass/nav/_mobile.scss */
   .navigation {
     display: block;
     margin: auto;
   }
 
-  /* line 24, ../../../sass/nav/_mobile.scss */
+  /* line 19, ../../../sass/nav/_mobile.scss */
   .navigation ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
-  /* line 31, ../../../sass/nav/_mobile.scss */
+  /* line 26, ../../../sass/nav/_mobile.scss */
   .navigation a {
     display: block;
     min-width: 200px;
@@ -484,7 +479,7 @@ a:hover, active {
     background: #e44d26;
   }
 
-  /* line 37, ../../../sass/nav/_mobile.scss */
+  /* line 32, ../../../sass/nav/_mobile.scss */
   .navigation a:hover {
     background-color: #3a32de;
   }
