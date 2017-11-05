@@ -450,22 +450,32 @@ a:hover, active {
     top: 20px;
     left: 20px;
   }
+  /* line 10, ../../../sass/nav/_mobile.scss */
+  .logo h1 {
+    display: inline;
+    font-size: 1.2em;
+    font-family: NeuzeitBold;
+    color: #e44d26;
+    border-bottom: 0.3em solid #e44d26;
+    padding-bottom: .5em;
+    width: 100%;
+  }
 
   /* -------------------- Navigation -------------------- */
-  /* line 14, ../../../sass/nav/_mobile.scss */
+  /* line 24, ../../../sass/nav/_mobile.scss */
   .navigation {
     display: block;
     margin: auto;
   }
 
-  /* line 19, ../../../sass/nav/_mobile.scss */
+  /* line 29, ../../../sass/nav/_mobile.scss */
   .navigation ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
-  /* line 26, ../../../sass/nav/_mobile.scss */
+  /* line 36, ../../../sass/nav/_mobile.scss */
   .navigation a {
     display: block;
     min-width: 200px;
@@ -479,7 +489,7 @@ a:hover, active {
     background: #e44d26;
   }
 
-  /* line 32, ../../../sass/nav/_mobile.scss */
+  /* line 42, ../../../sass/nav/_mobile.scss */
   .navigation a:hover {
     background-color: #3a32de;
   }
@@ -491,25 +501,29 @@ a:hover, active {
   .logo {
     margin: 0;
   }
+  /* line 11, ../../../sass/nav/_tablet.scss */
+  .logo h1 {
+    font-size: 1.4em;
+  }
 
   /* -------------------- Navigation -------------------- */
-  /* line 15, ../../../sass/nav/_tablet.scss */
+  /* line 19, ../../../sass/nav/_tablet.scss */
   .navigation {
     display: inline-block;
   }
 
-  /* line 21, ../../../sass/nav/_tablet.scss */
+  /* line 25, ../../../sass/nav/_tablet.scss */
   .navigation a {
     margin: 0 1.7%;
     margin-bottom: 0;
   }
 
-  /* line 26, ../../../sass/nav/_tablet.scss */
+  /* line 30, ../../../sass/nav/_tablet.scss */
   .navigation li:first-child a {
     margin-left: 0;
   }
 
-  /* line 30, ../../../sass/nav/_tablet.scss */
+  /* line 34, ../../../sass/nav/_tablet.scss */
   .navigation li:last-child a {
     margin-right: 0;
   }
@@ -550,39 +564,49 @@ a:hover, active {
 /* homepage _manifest */
 @media only screen and (min-width: 320px) {
   /* homepage/_mobile.scss */
-  /* line 3, ../../../sass/homepage/_mobile.scss */
-  .homepage-hi {
-    font-size: 50vw;
-    font-weight: normal;
-    font-family: NeuzeitBold;
-    line-height: 1em;
-    margin: 20vh auto 6vh;
-    text-align: center;
-    color: #fff;
-  }
-
-  /* line 13, ../../../sass/homepage/_mobile.scss */
+  /* line 2, ../../../sass/homepage/_mobile.scss */
   canvas {
     position: fixed;
     z-index: -2000;
   }
 
-  /* line 18, ../../../sass/homepage/_mobile.scss */
+  /* line 7, ../../../sass/homepage/_mobile.scss */
+  .short-description {
+    font-size: 2.75em;
+    font-weight: normal;
+    font-family: NeuzeitBold;
+    line-height: 1.2em;
+    margin: 5vh auto 3vh;
+    text-align: left;
+    color: #fff;
+    /*
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    */
+  }
+
+  /* line 22, ../../../sass/homepage/_mobile.scss */
   .home p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.6em;
-    margin-top: .8em;
+    margin: 1.8em auto 0;
     max-width: 420px;
-    text-align: center;
+    text-align: left;
   }
 }
 @media only screen and (min-width: 768px) {
   /* homepage/_tablet.scss */
   /* line 3, ../../../sass/homepage/_tablet.scss */
-  .homepage-hi {
-    font-size: 30vw;
-    line-height: 1em;
-    text-align: center;
+  .short-description {
+    font-size: 6em;
+    line-height: 1.2em;
+    text-align: left;
+    margin: 10vh 0 6vh;
+  }
+
+  /* line 11, ../../../sass/homepage/_tablet.scss */
+  .home p {
+    text-align: left;
   }
 }
 /* -----------------------------------------------------------------------

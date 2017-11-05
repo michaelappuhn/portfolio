@@ -1,24 +1,28 @@
 /* homepage/_mobile.scss */
-
-.homepage-hi{
-	font-size: 50vw;
-	font-weight: normal	;
-	font-family: NeuzeitBold;
-	line-height: 1em;
-	margin: 20vh auto 6vh;
-	text-align: center;
-	color: $color1;
-}
-
 canvas {
 	position: fixed;
 	z-index: -2000;
 }
 
+.short-description{
+	font-size: 2.75em;
+	font-weight: normal	;
+	font-family: NeuzeitBold;
+	line-height: 1.2em;
+	margin: 5vh auto 3vh;
+	text-align: left;
+	color: $color1;
+	/*
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	*/
+
+}
+
 .home p {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	line-height: 1.6em;
-	margin-top: .8em;
+	margin: 1.8em auto 0;
     max-width: 420px;
-    text-align: center;
+    text-align: left;
 }
