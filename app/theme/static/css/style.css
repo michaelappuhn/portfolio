@@ -445,12 +445,16 @@ a:hover, active {
   /* -------------------- Logo -------------------- */
   /* line 4, ../../../sass/nav/_mobile.scss */
   .logo {
-    max-width: 300px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 4vh;
+    /*
     position: relative;
     top: 20px;
     left: 20px;
+    */
   }
-  /* line 10, ../../../sass/nav/_mobile.scss */
+  /* line 14, ../../../sass/nav/_mobile.scss */
   .logo h1 {
     display: inline;
     font-size: 1.2em;
@@ -462,20 +466,20 @@ a:hover, active {
   }
 
   /* -------------------- Navigation -------------------- */
-  /* line 24, ../../../sass/nav/_mobile.scss */
+  /* line 28, ../../../sass/nav/_mobile.scss */
   .navigation {
     display: block;
     margin: auto;
   }
 
-  /* line 29, ../../../sass/nav/_mobile.scss */
+  /* line 33, ../../../sass/nav/_mobile.scss */
   .navigation ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
-  /* line 36, ../../../sass/nav/_mobile.scss */
+  /* line 40, ../../../sass/nav/_mobile.scss */
   .navigation a {
     display: block;
     min-width: 200px;
@@ -489,7 +493,7 @@ a:hover, active {
     background: #e44d26;
   }
 
-  /* line 42, ../../../sass/nav/_mobile.scss */
+  /* line 46, ../../../sass/nav/_mobile.scss */
   .navigation a:hover {
     background-color: #3a32de;
   }
@@ -500,30 +504,32 @@ a:hover, active {
   /* line 8, ../../../sass/nav/_tablet.scss */
   .logo {
     margin: 0;
+    width: 95%;
+    margin: 0 auto;
   }
-  /* line 11, ../../../sass/nav/_tablet.scss */
+  /* line 13, ../../../sass/nav/_tablet.scss */
   .logo h1 {
     font-size: 1.4em;
   }
 
   /* -------------------- Navigation -------------------- */
-  /* line 19, ../../../sass/nav/_tablet.scss */
+  /* line 21, ../../../sass/nav/_tablet.scss */
   .navigation {
     display: inline-block;
   }
 
-  /* line 25, ../../../sass/nav/_tablet.scss */
+  /* line 27, ../../../sass/nav/_tablet.scss */
   .navigation a {
     margin: 0 1.7%;
     margin-bottom: 0;
   }
 
-  /* line 30, ../../../sass/nav/_tablet.scss */
+  /* line 32, ../../../sass/nav/_tablet.scss */
   .navigation li:first-child a {
     margin-left: 0;
   }
 
-  /* line 34, ../../../sass/nav/_tablet.scss */
+  /* line 36, ../../../sass/nav/_tablet.scss */
   .navigation li:last-child a {
     margin-right: 0;
   }
@@ -572,11 +578,11 @@ a:hover, active {
 
   /* line 7, ../../../sass/homepage/_mobile.scss */
   .short-description {
-    font-size: 2.75em;
+    font-size: 2em;
     font-weight: normal;
     font-family: NeuzeitBold;
     line-height: 1.2em;
-    margin: 5vh auto 3vh;
+    margin: 7vh auto 3vh;
     text-align: left;
     color: #fff;
     /*
