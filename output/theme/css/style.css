@@ -666,30 +666,6 @@ a:hover, active {
 /* -----------------------------------------------------------------------
 		CONTACT
 -------------------------------------------------------------------------- */
-@media only screen and (min-width: 320px) {
-  /* line 3, ../../../sass/contact/_manifest.scss */
-  .contact {
-    position: relative;
-  }
-  /* line 5, ../../../sass/contact/_manifest.scss */
-  .contact .content * {
-    position: relative;
-    width: 100%;
-    z-index: 2000;
-  }
-  /* line 11, ../../../sass/contact/_manifest.scss */
-  .contact iframe.google-form {
-    margin-top: -20px;
-    position: relative;
-    z-index: -5000;
-  }
-}
-@media only screen and (min-width: 768px) {
-  /* line 23, ../../../sass/contact/_manifest.scss */
-  .contact iframe.google-form {
-    margin-top: -140px;
-  }
-}
 /*====================================================================
 		PARAGRAPH STYLES
 ====================================================================== */
