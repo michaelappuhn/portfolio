@@ -11,15 +11,26 @@
 		left: 20px;
 		*/
 
-		h1{
+		a{
 			display: inline;
 			font-size: 1.2em;
 			font-family: NeuzeitBold;
-			color: $color2;
 			border-bottom: .3em solid $color2;
 			padding-bottom: .5em;
 			width: 100%;
+			
+			&:link, &:visited{
+				color: $color2;
+			}
+
+			&:hover, &:active{
+				text-decoration: none;
+				color: $color1;
+				border-bottom: .3em solid $color1;
+
+			}
 		}
+
 	}
 
 	// .logo img {}

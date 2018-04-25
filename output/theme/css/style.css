@@ -455,31 +455,40 @@ a:hover, active {
     */
   }
   /* line 14, ../../../sass/nav/_mobile.scss */
-  .logo h1 {
+  .logo a {
     display: inline;
     font-size: 1.2em;
     font-family: NeuzeitBold;
-    color: #e44d26;
     border-bottom: 0.3em solid #e44d26;
     padding-bottom: .5em;
     width: 100%;
   }
+  /* line 22, ../../../sass/nav/_mobile.scss */
+  .logo a:link, .logo a:visited {
+    color: #e44d26;
+  }
+  /* line 26, ../../../sass/nav/_mobile.scss */
+  .logo a:hover, .logo a:active {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 0.3em solid #fff;
+  }
 
   /* -------------------- Navigation -------------------- */
-  /* line 28, ../../../sass/nav/_mobile.scss */
+  /* line 39, ../../../sass/nav/_mobile.scss */
   .navigation {
     display: block;
     margin: auto;
   }
 
-  /* line 33, ../../../sass/nav/_mobile.scss */
+  /* line 44, ../../../sass/nav/_mobile.scss */
   .navigation ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
 
-  /* line 40, ../../../sass/nav/_mobile.scss */
+  /* line 51, ../../../sass/nav/_mobile.scss */
   .navigation a {
     display: block;
     min-width: 200px;
@@ -493,7 +502,7 @@ a:hover, active {
     background: #e44d26;
   }
 
-  /* line 46, ../../../sass/nav/_mobile.scss */
+  /* line 57, ../../../sass/nav/_mobile.scss */
   .navigation a:hover {
     background-color: #3a32de;
   }
@@ -509,7 +518,7 @@ a:hover, active {
   }
   /* line 13, ../../../sass/nav/_tablet.scss */
   .logo h1 {
-    font-size: 1.4em;
+    font-size: 1.1em;
   }
 
   /* -------------------- Navigation -------------------- */
@@ -555,7 +564,7 @@ a:hover, active {
 
   /* line 9, ../../../sass/content/_tablet.scss */
   .content p {
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
   }
 }
@@ -564,6 +573,45 @@ a:hover, active {
 /* =======================================================================
 		PAGES
 ========================================================================== */
+@media only screen and (min-width: 320px) {
+  /* line 1, ../../../sass/pages/_mobile.scss */
+  .page__title {
+    font-size: 3em;
+    font-weight: normal;
+    font-family: NeuzeitBold;
+    line-height: 1.2em;
+    margin: 4vh auto 3vh;
+    text-align: left;
+    color: #fff;
+  }
+
+  /* line 12, ../../../sass/pages/_mobile.scss */
+  .page p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 1.8em auto 0;
+    max-width: 420px;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 1, ../../../sass/pages/_tablet.scss */
+  .page__title {
+    font-size: 6em;
+    line-height: 1.2em;
+    text-align: left;
+    margin: 4vh 0 2vh;
+  }
+
+  /* line 8, ../../../sass/pages/_tablet.scss */
+  .page p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin: 1.8em 0 0;
+    max-width: 700px;
+    text-align: left;
+  }
+}
 /* -----------------------------------------------------------------------
 		HOMEPAGE
 -------------------------------------------------------------------------- */
@@ -607,7 +655,7 @@ a:hover, active {
     font-size: 6em;
     line-height: 1.2em;
     text-align: left;
-    margin: 10vh 0 6vh;
+    margin: 7vh 0 6vh;
   }
 
   /* line 11, ../../../sass/homepage/_tablet.scss */
@@ -616,7 +664,32 @@ a:hover, active {
   }
 }
 /* -----------------------------------------------------------------------
+		CONTACT
 -------------------------------------------------------------------------- */
+@media only screen and (min-width: 320px) {
+  /* line 3, ../../../sass/contact/_manifest.scss */
+  .contact {
+    position: relative;
+  }
+  /* line 5, ../../../sass/contact/_manifest.scss */
+  .contact .content * {
+    position: relative;
+    width: 100%;
+    z-index: 2000;
+  }
+  /* line 11, ../../../sass/contact/_manifest.scss */
+  .contact iframe.google-form {
+    margin-top: -20px;
+    position: relative;
+    z-index: -5000;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 23, ../../../sass/contact/_manifest.scss */
+  .contact iframe.google-form {
+    margin-top: -140px;
+  }
+}
 /*====================================================================
 		PARAGRAPH STYLES
 ====================================================================== */

@@ -1,0 +1,30 @@
+@media only screen and (min-width: $mobileWidth) { 
+
+	.contact{
+		position: relative;
+		.content *{
+			position: relative;
+			width: 100%;
+			z-index: 2000;
+		}
+
+		iframe.google-form{
+			margin-top: -20px;
+			position: relative;
+			z-index: -5000;
+		
+		}
+
+	}
+}
+
+@media only screen and (min-width: $tabletWidth) { 
+	.contact{
+			iframe.google-form{
+			margin-top: -140px;
+		
+		}
+
+	}
+
+}

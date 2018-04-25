@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Michael Appuhn'
 SITENAME = u'Michael Appuhn'
-SITEURL = ''
+SITEURL = 'http://michaelappuhn.com'
 
 PATH = 'content'
 
@@ -32,3 +32,6 @@ DEFAULT_PAGINATION = 60
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}/index.html' 

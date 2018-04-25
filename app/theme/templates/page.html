@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 
+{% block page_class_name %}page {{ page.slug }}{% endblock page_class_name %}
 {% block title %}{{ page.title }}{%endblock%}
 
 {% block content %}
-    <h1>{{ page.title }}</h1>
+    <h1 class="page__title">{{ page.title }}</h1>
     
     {{ page.content }}
 
